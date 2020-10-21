@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="./assets/img/favicon1.png">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Santiago Fernandez</title>
+</head>
+<body>
+    <!-- ===== Header =====  --> 
+    <header class="l-header">
+        <nav class="nav bg-grid">
+            <div>
+                <a href="#" class="nav__logo"><img class="nav__logo-img" src="./assets/img/logo1.svg" alt=""></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active" >Inicio</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre Mí</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Proyectos</a></li>
+                    <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li> -->
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- ===== Home =====  -->
+        <section class="home bg-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hola, <br>Soy <span class="home__title-color">Santiago</span><br>Desarrollador Web <br><span class="home__title-span">Trainee</span></h1>
+                <!-- <a href="#" class="button">Contacto</a> -->
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/santiagojosefernandez/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                <a href="https://github.com/upa-upz" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="./assets/img/perfil.png" alt="">
+            </div>
+        </section> 
+
+        <!-- ===== About =====  -->
+        <section class="about section" id="about">
+            <h2 class="section-title">Sobre Mí</h2>
+
+            <div class="about__container bg-grid">
+                <div class="about__img">
+                    <img src="./assets/img/about.jpg" alt="">
+                </div>
+                
+                <div>
+                    <h2 class="about__subtitle">Soy Santiago Fernandez</h2>
+                    <p class="about__text">Entusiasta y amante de la Tecnología.<br>
+                        Descubrí mi pasión por la programación de grande, pero como siempre dicen, nunca es tarde para empezar algo no? <br>
+                        Vengo del mundo del diseño industrial, del CAD y en menor medida del diseño gráfico. <br>
+                        Con la meta de ser desarrollador FrontEnd senior en un futuro próximo.
+                        </p>
+
+                </div>
+            </div>
+        </section>
+        <!-- ===== skills =====  -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades</h2>
+
+            <div class="skills__container bg-grid">
+                <div class="">
+                    <h2 class="skills__subtitle">Habilidades Profecionales</h2>
+                    <p class="skills__text">Poseo conocimientos básicos en base de datos SQL, Programación Orientada a Objeto y diagrama de flujo. <br>
+                        Constantemente aplicando nuevos conocimientos y reforzando los anteriores, me enfoco en entender mejor el lenguaje y las buenas prácticas. <br>
+                        Siempre dispuesto a aprender nuevas tecnologías y conceptos.</p>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon' ></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+
+                        <div>
+                            <span class="skills__porcentage">40%</span>
+                        </div>
+
+                        <div class="skills__bar skills__html"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+
+                        <div>
+                            <span class="skills__porcentage">30%</span>
+                        </div>
+                        
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+
+                        <div>
+                            <span class="skills__porcentage">25%</span>
+                        </div>
+                        
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+
+                        <div>
+                            <span class="skills__porcentage">35%</span>
+                        </div>
+                        
+                        <div class="skills__bar skills__ux"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-react skills__icon'></i>
+                            <span class="skills__name">REACT</span>
+                        </div>
+
+                        <div>
+                            <span class="skills__porcentage">10%</span>
+                        </div>
+                        
+                        <div class="skills__bar skills__react"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./assets/img/work1.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Work =====  -->
+        <section class="work section" id="work">
+            <h2 class="section-title">Proyectos</h2>
+
+            <div class="work__container bg-grid">
+                <div class="work-card">
+                    <img src="./assets/img/work2.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">recetas de bebidas con api de coclkdslk</p>
+                        <a href="https://objective-bose-c60ca5.netlify.app/" target="_blank" class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work3.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Administrador de Pacientes en React</p>
+                        <a href="https://vibrant-euclid-27cd08.netlify.app/" target="_blank" class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work4.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Calculadora en JavaScript Vanilla</p>
+                        <a href="https://upa-upz.github.io/CalculadoraJS/" target="_blank" class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work5.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Reloj en JavaScript Vanilla</p>
+                        <a href="https://upa-upz.github.io/ReloJS/" target="_blank" class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work6.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Juego de adivinar el Pokemon usando la API PokeApi en JavaScript Vanilla</p>
+                        <a href="https://upa-upz.github.io/pokeapiGame/" target="_blank" class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work7.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Consulta del Clima usando la API de Openweathermap "En Desarrollo"</p>
+                        <a href="#"  class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work8.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Cotizador de Seguros en React</p>
+                        <a href="https://adoring-joliot-1fb3ec.netlify.app/" target="_blank" class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work9.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Tutorial de Youtube, Web concepto de Pepsi</p>
+                        <a href="https://upa-upz.github.io/PepsiWebsite/" target="_blank" class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work10.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Cotizador de Criptomonedas en React</p>
+                        <a href="https://mystifying-shockley-f2d95e.netlify.app" target="_blank" class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work11.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Buscador de Noticias con la API --- en React "En Desarrollo"</p>
+                        <a href="#"  class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work12.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Buscador de Imagenes con la API de Pixabay en React "En Desarrollo"</p>
+                        <a href="#"  class="button">Ver</a>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/img/work13.jpg" alt="" class="work__img">
+                    <div class="work-overlay">
+                        <p class="">Tutorial de Youtube, Web concepto de Ecomrce de Zapatillas "En Desarrollo"</p>
+                        <a href="#"  class="button">Ver</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== Contact =====  -->
+        <!-- <section class="contact section" id="contact">
+            <h2 class="section-title">Contacto</h2>
+
+            <div class="contact__container bg-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section> -->
+
+    </main>
+
+    <!-- ===== Footer =====  -->
+    <footer class="footer" id="footer">
+        <p class="footer__title">Santiago Fernandez</p>
+
+        <!-- <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div> -->
+
+        <p class="">&#169; 2020 </p>
+    </footer>
+
+    <!-- ===== Scroll reval =====  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ===== Main js =====  -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
