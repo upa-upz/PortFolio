@@ -249,6 +249,10 @@ body::-webkit-scrollbar-thumb {
 .button:hover {
     box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
+.desactive {
+    cursor: default;
+    background-color: grey;
+}
 
 /* ===== about ===== */
 .about__container {
